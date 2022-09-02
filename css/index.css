@@ -1,0 +1,35 @@
+.Header{
+    /* claros especificos y simples, sin caracteres especiales */
+    width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
+    height: 10%;/* altura */
+    background-color: #365b77; /* color de fondo*/
+    border: 1px; /* para centrar */
+}
+
+.Section{
+    width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
+    height: 80%;
+    background-color: white;
+    float: left;
+}
+
+.Footer{
+    width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
+    height: 10%;
+    background-color: #153f59;
+    float: left;
+}
+
+.Container{
+    width: 98vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.Menu{
+    width: 99%;
+    margin:auto;
+    text-align:center;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+}
