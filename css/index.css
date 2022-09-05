@@ -43,7 +43,7 @@
   
     /* Vamos a añadir esto 👇 */
     scroll-snap-type: x mandatory;
-  }
+}
   
   .slider-container img {
     flex: 0 0 100%;
@@ -52,4 +52,30 @@
   
     /* Vamos a añadir esto 👇 */
     scroll-snap-align: center;
-  }
+}
+
+            
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    } 
+    nav li{
+    display:inline-block;
+    width:10%;
+    padding:5px 10px;
+    background-color:#365b77;
+    border:1px solid #365b77;
+    text-align:center;
+    color:#fff;
+    margin: 0 .75rem;
+    }
+    nav li:hover{
+    background-color:#fff;
+    color:#365b77;
+    }
