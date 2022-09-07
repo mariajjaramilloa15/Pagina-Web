@@ -7,9 +7,9 @@
     font-family: var(--bs-font-sans-serif);
 }
 
-.Section{
+.SectionService{
     width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
-    height: 200%;
+    height: 100%;
     background-color: white;
     float: left;
     font-family: var(--bs-font-sans-serif);

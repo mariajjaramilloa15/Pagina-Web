@@ -1,7 +1,7 @@
 .Header{
     /* claros especificos y simples, sin caracteres especiales */
     width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
-    height: 7.2%;/* altura */
+    height: 10%;/* altura */
     background-color: #365b77; /* color de fondo*/
     border: 1px; /* para centrar */
     font-family: var(--bs-font-sans-serif);
@@ -9,7 +9,7 @@
 
 .Section{
     width: 100%;/* ancho, se puede definir mediante porcentajes o pixeles; mejor en porcentaje que en pixceles */
-    height: 180%;
+    height: 250%;
     background-color: white;
     float: left;
     font-family: var(--bs-font-sans-serif);
